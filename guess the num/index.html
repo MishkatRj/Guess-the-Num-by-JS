@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="icon" href="asset/doubt.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main center">
+        <div class="box center">
+            <h1><span style="color: rgb(89, 27, 89);">Guess</span> The Number</h1>
+            <p>Between 1 - 100</p>
+            <p id="txt"></p>
+            <p id="chancesTxt" style="color: rgb(32, 26, 105);"></p>
+            <form action="" class="center">
+                <input type="number" id="num">
+                <button type="submit" class="btn" id="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="prompt_box center" id="prompt_box">
+        <h1 id="promt_txt" style="color: rgb(163, 15, 15);"></h1>
+        <button type="submit" class="btn" onclick="play();">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
